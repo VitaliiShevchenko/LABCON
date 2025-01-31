@@ -59,7 +59,7 @@ LabconRegisterFunction labconRegistersDatabase[] = {
   {"SetBaudRate",          0x2007, "Setting the baud rate, bod",                                      9600},
   {"SetSpeed",             0x2008, "Setting the speed of rotating main tool, rot/min",                 100},
   {"DelayTurnOff",         0x2009, "the motor shuts down if the current/voltage is close to zero, s",    3},
-  {"SetTorqueRange",       0x200A, "Set torque calibration range,*1(Nm)|*10(Ndm)|*100(Ncm)",         15291},
+  {"SetTorqueRange",       0x200A, "Set torque calibration range,*1(Nm)|*10(Ndm)|*100(Ncm)",         13203},
   //Monitoring Parameters
   {"Torque",               0x4000, "Store current torque of process, N*m|dm|cm, depends on TorqueRange", 0},
   {"Speed",                0x4001, "Store current speed of the mixing, rot/min",                         0},
